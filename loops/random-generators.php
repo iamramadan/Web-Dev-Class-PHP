@@ -5,3 +5,8 @@
  */
 
 #SOLUTION
+$iteration_count = 7;
+do{
+    echo rand(1,10)."<br>";
+    $iteration_count--;
+} while ($iteration_count > 0);
