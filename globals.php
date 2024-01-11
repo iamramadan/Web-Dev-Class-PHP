@@ -27,4 +27,4 @@ foreach($_SERVER as $key => $val){
 
 $_SESSION['userId'] = 'dkdfjdhkdjfjdh';
 if (!isset($_SESSION['visited-pages'])) $_SESSION['visited-pages'] = [];
-var_dump($_SESSION);
+// var_dump($_SESSION);

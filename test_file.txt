@@ -1,0 +1,2 @@
+Hello! I am a file created with the file_put_content function of php.
+I think its fun to create files with this particular function.
