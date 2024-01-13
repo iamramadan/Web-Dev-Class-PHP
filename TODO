@@ -1,4 +1,31 @@
 Exceptions in php
 include(), include_once() and require(), require_once() functions in php
+OOP PHP
+Autoloading and dependency management with composer
 
 MYSQL
+Assignemnt
+
+Design a database for a staff management record, the databse should contain staff records with the following fields;
+- ID
+- FIRSTNAME
+- MIDDLENAME
+- LASTNAME
+- PHONE NUMBER
+- EMAIL
+- POSTION
+- CURRENT SARALRY
+- NATIONALITY
+The database should contain information for department with the following fields;
+- ID
+- dept name
+- DESCRIPTION
+- HOD (should contain the id of the staff)
+
+Write Select statement that will get the follwing;
+1. Get list of departments along with the name of the HOD
+2. Get the staff with the highest and lowest salary
+3. Get an estimate of total amount required to service the salary payment of all staff for every month by the management
+4. Get the name, phone and email of all HOD staff
+
+Note: Fill in the staff record with at least 20 records and the department with at least 5 departments
