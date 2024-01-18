@@ -1,0 +1,9 @@
+use demo_staff_db;
+
+CREATE TABLE IF NOT EXISTS department(
+    ID INT(5) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(60) NOT NULL,
+    description VARCHAR(255),
+    HOD INT(5) NOT NULL,
+    FOREIGN KEY(HOD) REFERENCES staff(ID)
+);
