@@ -1,3 +1,4 @@
 OOps! Our error reporting could not be turned offOOps! Our error reporting could not be turned offOOps! Our error reporting could not be turned offOOps! Our error reporting could not be turned offOOps! Our error reporting could not be turned offOOps! Our error reporting could not be turned off on line3\r\nOOps! Our error reporting could not be turned off on line 3
 OOps! Our error reporting could not be turned off on line 3
 OOps! Our error reporting could not be turned off on line 3
+SQLSTATE[HY000] [1049] Unknown database 'demo_blog'
