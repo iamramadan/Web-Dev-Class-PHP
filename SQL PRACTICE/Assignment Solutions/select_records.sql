@@ -7,10 +7,10 @@ SELECT dp.name as Department,dp.description as Description, CONCAT(st.firstname,
 -- SOLUTION 2: Get the staff with the highest and lowest salary
 SELECT firstname, lastname, current_salary,
     CASE 
-        WHEN current_salary = min(current_salary) THEN  'Lowest Paid'  
-        WHEN current_salary = max(current_salary) THEN 'Highest Paid'
+        WHEN current_salary = (SELECT MIN(current_salary) from staff) THEN  'Lowest Paid'  
+        WHEN current_salary = (SELECT MAX(current_salary) from staff) THEN 'Highest Paid'
     END
-    as `salary rank`
+    as `salary Rank`
     FROM staff
     WHERE current_salary = (SELECT MIN(current_salary) from staff)
     OR current_salary = (SELECT MAX(current_salary) FROM staff) 
